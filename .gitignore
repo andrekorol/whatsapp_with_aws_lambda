@@ -1,2 +1,16 @@
 # removing screenshots folder
 screenshots/*
+
+# Twilio personal authentication information
+authentication.py
+
+# Personal contacts information
+contacts.py
+
+# Local Python virtual environment
+venv/
+
+# VS Code configuration
+.vscode/
+
+__pycache__/
