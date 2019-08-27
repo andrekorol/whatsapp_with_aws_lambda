@@ -16,9 +16,7 @@ def msg_mom_and_dad(event=None, context=None):
     }
 
     for key, value in contact_directory.items():
-        msg_loved_ones = whatsapp_client.messages.create(
+        whatsapp_client.messages.create(
             body='good morning {} !'.format(key),
             from_='whatsapp:+14155238886',
             to='whatsapp:' + value)
-
-        print(msg_loved_ones.sid)
